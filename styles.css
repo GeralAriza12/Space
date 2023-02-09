@@ -1,0 +1,354 @@
+/* @import url('https://fonts.googleapis.com/css2? family= Noto+Serif:wght@400;700 & display=swap'); */
+*{ 
+    Margin:0;
+    Padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    /* overflow-x:hidden; */
+    font-family:'Noto Serif';
+}
+ 
+#line1 {
+    width: 629px;
+    margin-top: 35px;
+    margin-left: 91px;
+    position: absolute;
+}
+
+b{
+    color: white;
+    margin-right: 7px;
+}
+
+ul {
+    list-style: none
+}
+
+li {
+    margin-right: -6px;
+    margin-left: 50px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu a {
+    position: relative;
+    color: #ffffff94;
+}
+
+.menu {
+    display: flex;
+    backdrop-filter: blur(3px);
+    background: #ffffff0f;
+    width: 653px;
+    height: 73px;
+    margin-left: 696px;
+    position: absolute;
+    color: white;
+    align-items: center;
+    font-size: 13px;
+}
+
+
+.menu a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #f7f5f8, #fcfcfc, #fdfdfd);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+    margin-bottom: -25px;
+}
+
+.menu a:hover::before {
+    transform: scaleX(1);
+}
+
+.menu[data-animation="center"] a::before {
+    transform-origin: center;
+}
+
+/* segundo menu */
+.menu1 a {
+    position: relative;
+}
+
+.menu1 {
+    display: flex;
+    width: 518px;
+    margin-left: 783px;
+}
+
+
+.menu1 a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #f7f5f8, #fcfcfc, #fdfdfd);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+}
+
+.menu1 a:hover::before {
+    transform: scaleX(1);
+}
+
+.menu1 [data-animation="center"] a::before {
+    transform-origin: center;
+}
+
+#uno {
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    width: 1351px;
+    height: 655px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#uno-1 {
+    margin-top: 300px;
+    margin-bottom: 15px;
+    margin-left: 221px;
+}
+
+#explore {
+    width: 190px;
+    height: 190px;
+    border-radius: 152px;
+    margin-left: 364px;
+    margin-top: 340px;
+    font-size: 24px;
+    font-family: serif;
+    backdrop-filter: blur(2px);
+}
+
+h2{
+    font-weight: 100;
+    color: #ffffffb0;
+}
+
+h1{
+    font-size: 135px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    color: #ffffffb0;
+}
+
+#dos{
+    background-image: url(./assets/destination/background-destination-desktop.jpg);
+    width: 1351px;
+    height: 655px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+hr{
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+#subtitulo{
+    margin-top: 187px;
+    margin-left: 229px;
+    font-weight: 100;
+}
+
+#dos_M, #dos_Ma, #dos_E, #dos_T{
+    display: flex;
+}
+
+#dos_2{
+    margin-left: 115px;
+}
+
+#dos__2{
+    display: flex;
+}
+
+#dis{
+    margin-right: 76px; 
+}
+
+h3{
+    font-size: 27px;
+    font-weight: 100;
+}
+
+#planet{
+    width: 352px;
+    margin-left: 319px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+#tres {
+    background-image: url(./assets/crew/background-crew-desktop.jpg);
+    width: 1351px;
+    height: 655px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#tres_3{
+    display: flex;
+    flex-direction: column;
+}
+
+#tres__3{
+    margin-left: 232px;
+    margin-top: 340px;
+    position: absolute;
+}
+
+h4{
+    color: #ffffff5c;
+    font-size: 24.9px;
+    font-weight: 100;
+    margin-bottom: 22px;
+}
+
+h5{
+    font-size: 44px;
+    margin: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+#presentadora{
+    position: relative;
+    top: 28px;
+    left: 802px;
+    width: 366px;
+}
+
+#cuatro {
+    background-image: url(./assets/technology/background-technology-desktop.jpg);
+    width: 1351px;
+    height: 655px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#cuatro_4{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#cuatro__4{
+    display: flex;
+    flex-direction: column;
+} 
+
+#terminology, #capsule, #port{
+    display: flex;
+}
+
+#cuatro-4{
+    display: flex;
+    margin-left: 198px;
+    margin-top: 122px;
+    flex-direction: column;
+}
+
+button{
+    background: transparent;
+    width: 60px;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 100%;
+    color: white;
+    margin: 14px;
+    font-size: 22px;
+}
+
+button:hover{
+    color: rgb(5, 6, 77);
+    background-color: white;
+}
+
+#text{
+    margin-top: 151px;
+    margin-left: 60px;
+    width: 568px;
+}
+
+#tec{
+    width: 435px;
+}
+
+footer{
+    display: flex;
+    background: #10102052;
+    justify-content: center;
+}
+
+@media (max-width: 600px){
+    #uno {
+        background-image: url(./assets/home/background-home-mobile.jpg);
+        height: 655px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #uno-1 {
+        margin-top: 99px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 90px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
